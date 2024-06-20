@@ -1,3 +1,6 @@
+# Code was retrieved from following website.
+# https://github.com/dataprofessor/code/blob/master/streamlit/part2/iris-ml-app.py
+
 import streamlit as st
 import pandas as pd
 from sklearn import datasets
