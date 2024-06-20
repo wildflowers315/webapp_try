@@ -5,12 +5,12 @@ import streamlit as st
 import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
-import os
+# import os
 
-# Set Streamlit to use the port provided by Heroku
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 8501))
-    st.set_option('server.port', port)
+# # Set Streamlit to use the port provided by Heroku
+# if __name__ == '__main__':
+#     port = int(os.environ.get("PORT", 8501))
+#     st.set_option('server.port', port)
 
 st.write("""
 # Simple Iris Flower Prediction App
